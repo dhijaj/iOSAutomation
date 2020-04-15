@@ -63,6 +63,7 @@ class FFTestUITests: BaseTest {
 
         givenITapAnyWhereInList()
         thenIShouldSeeFullArticle()
+        
     }
     
 }
