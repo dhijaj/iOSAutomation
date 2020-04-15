@@ -3,6 +3,8 @@
 //  FFTestUITests
 //
 
+import XCTest
+
 class FFTestUITests: BaseTest {
 
     override func setUp() {
@@ -62,4 +64,5 @@ class FFTestUITests: BaseTest {
         givenITapAnyWhereInList()
         thenIShouldSeeFullArticle()
     }
+    
 }
