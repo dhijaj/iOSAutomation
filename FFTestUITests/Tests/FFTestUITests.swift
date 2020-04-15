@@ -3,6 +3,8 @@
 //  FFTestUITests
 //
 
+import XCTest
+
 class FFTestUITests: BaseTest {
 
     override func setUp() {
@@ -16,7 +18,7 @@ class FFTestUITests: BaseTest {
         super.tearDown()
     }
 
-    //Test to verify, stories has image, headline, theAbstract and byLine on index screen. 
+    //Test to verify, stories has image, headline, theAbstract and byLine on index screen....
     func test_Index_Story() {
 
         thenIShouldSeeStoryDetails()
@@ -62,4 +64,5 @@ class FFTestUITests: BaseTest {
         givenITapAnyWhereInList()
         thenIShouldSeeFullArticle()
     }
+    
 }
