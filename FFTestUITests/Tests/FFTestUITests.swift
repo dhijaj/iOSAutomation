@@ -16,7 +16,7 @@ class FFTestUITests: BaseTest {
         super.tearDown()
     }
 
-    //Test to verify, stories has image, headline, theAbstract and byLine on index screen. 
+    //Test to verify, stories has image, headline, theAbstract and byLine on index screen....
     func test_Index_Story() {
 
         thenIShouldSeeStoryDetails()
