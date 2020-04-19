@@ -58,12 +58,11 @@ class FFTestUITests: BaseTest {
         thenIShouldSeeIndexScreenTitle()
     }
 
-    //Test to verify that tapping anywhere in the list opens the article....
+    //Test to verify that tapping anywhere in the list opens the article
     func test_Tapping_list_Opens_Article() {
 
         givenITapAnyWhereInList()
         thenIShouldSeeFullArticle()
-        
     }
     
 }
